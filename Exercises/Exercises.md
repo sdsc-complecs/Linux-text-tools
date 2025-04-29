@@ -30,10 +30,25 @@ delimiter and user specified delimiters. Delete rows from one of the
 files and see how this affects the output.
 
 ### nl 1
-Add line numbers to the planet-name.txt file. Experiment with options to left justify numbering, right justify numbering with zero padding, adjust the width of the numbers (useful in combination with zero padding), change the increment and change the starting number. Consult the nl man page as needed.
+Add line numbers to the planet-name.txt file. Experiment with options
+to left justify numbering, right justify numbering with zero padding,
+adjust the width of the numbers (useful in combination with zero
+padding), change the increment and change the starting number. Consult
+the nl man page as needed.
+
+### sort 1
+The produce.txt file contains the name, color, country of
+origin, and price for various fruits. Using the sort command, (i) sort
+by name, (ii) color, (iii) origin, (iv) price, (v) origin and then
+price, (vi) color, price and name. Keep in mind that price is a
+numerical value.
 
 ### split 1
-Split the file split-ex.txt into three parts using (i) default file naming parameters, (ii) a user defined prefix (e.g. part_), (iii) user defined suffix and numeric suffic instead of alphabetic suffix. Repeat specifying a line length instead of number of output files.
+Split the file split-ex.txt into three parts using (i)
+default file naming parameters, (ii) a user defined prefix
+(e.g. part_), (iii) user defined suffix and numeric suffic instead of
+alphabetic suffix. Repeat specifying a line length instead of number
+of output files.
 
 ### awk 1
 Write an awk one-liner to print out the first and last fields from
