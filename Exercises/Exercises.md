@@ -72,7 +72,7 @@ Apply sed to the file produce.txt to (i) replace all occurrences of
 apple with grape and (ii) replace all occurrences of apple with grape
 only if country of origin is Canada.
 
-## sed 2
+### sed 2
 Apply sed to file-long.txt to (i) replace Line with Record and (ii)
 replace Line with Record only if the number following line starts with
 the digit '4'.
