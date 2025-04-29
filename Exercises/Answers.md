@@ -1,19 +1,19 @@
 # Answers to exercises
 
 ### head/tail 1
-Display the first three/last three lines of file.txt using the
+Display the first three/last three lines of file-short.txt using the
 head/tail commands.
 
 ```
-head -3 file.txt  
-tail -3 file.txt
+head -3 file-short.txt  
+tail -3 file-short.txt
 ```
 
 ### head/tail 2
-Using a combination of head and tail, display lines 5-10 of file.txt
+Using a combination of head and tail, display lines 5-10 of file-short.txt
 
 ```
-head -10 file.txt | tail -5
+head -10 file-short.txt | tail -5
 ```
 
 ### paste 1
@@ -41,7 +41,7 @@ nl -v 5 planet-name.txt
 ```
 
 ### sort 1
-Split the file split-ex.txt into three parts using (i)
+Split the file file-long.txt into three parts using (i)
 default file naming parameters, (ii) a user defined prefix
 (e.g. part_), (iii) user defined suffix and numeric suffic instead of
 alphabetic suffix. Repeat specifying a line length instead of number
@@ -57,22 +57,22 @@ sort -k2,2 -k4n -k1,1 produce.txt
 ```
 
 ### shuf 1
-Generate a random ordering of the lines in file.txt
+Generate a random ordering of the lines in file-short.txt
 
 ```
-shuf file.txt
+shuf file-short.txt
 ```
 
 ### split 1
-Split the file split-ex.txt into three parts using (i) default file naming parameters, (ii) a user defined prefix (e.g. part_), (iii) user defined suffix and numeric suffic instead of alphabetic suffix. Repeat specifying that each output file should contain 10 lines.
+Split the file file-long.txt into three parts using (i) default file naming parameters, (ii) a user defined prefix (e.g. part_), (iii) user defined suffix and numeric suffic instead of alphabetic suffix. Repeat specifying that each output file should contain 10 lines.
 
 ```
-split -n 3 split-ex.txt
-split -n 3 split-ex.txt part_
-split -n 3 -d split-ex.txt part_
-split -l 10 split-ex.txt
-split -l 10 split-ex.txt part_
-split -l 10 -d split-ex.txt part_
+split -n 3 file-long.txt
+split -n 3 file-long.txt part_
+split -n 3 -d file-long.txt part_
+split -l 10 file-long.txt
+split -l 10 file-long.txt part_
+split -l 10 -d file-long.txt part_
 ```
 
 ### grep 1
