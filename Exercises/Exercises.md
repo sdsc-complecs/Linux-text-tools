@@ -67,11 +67,6 @@ matter? What happens if there is no following line? Repeat searching
 for the digit '5' in file-long.txt. What are the implications of
 multiple consecutive lines containing a '5'?
 
-```
-grep '2' -A1 -B1 file-short.txt
-grep '5' -B1 -A1 file-long.txt
-```
-
 ### sed 1
 Apply sed to the file produce.txt to (i) replace all occurrences of
 apple with grape and (ii) replace all occurrences of apple with grape
