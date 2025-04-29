@@ -23,6 +23,18 @@ head/tail commands.
 ### head/tail 2
 Using a combination of head and tail, display lines 5-10 of file.txt
 
+### paste 1
+Use the paste command to combine the planet names, colors,
+masses and duration of year into a single file using the default
+delimiter and user specified delimiters. Delete rows from one of the
+files and see how this affects the output.
+
+### nl 1
+Add line numbers to the planet-name.txt file. Experiment with options to left justify numbering, right justify numbering with zero padding, adjust the width of the numbers (useful in combination with zero padding), change the increment and change the starting number. Consult the nl man page as needed.
+
+### split 1
+Split the file split-ex.txt into three parts using (i) default file naming parameters, (ii) a user defined prefix (e.g. part_), (iii) user defined suffix and numeric suffic instead of alphabetic suffix. Repeat specifying a line length instead of number of output files.
+
 ### awk 1
 Write an awk one-liner to print out the first and last fields from
 each record of a file. Assume that the records can contain different

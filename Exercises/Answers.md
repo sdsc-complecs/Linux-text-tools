@@ -5,8 +5,8 @@ Display the first three/last three lines of file.txt using the
 head/tail commands.
 
 ```
-head -5 file.txt  
-tail -5 file.txt
+head -3 file.txt  
+tail -3 file.txt
 ```
 
 ### head/tail 2
@@ -14,6 +14,42 @@ Using a combination of head and tail, display lines 5-10 of file.txt
 
 ```
 head -10 file.txt | tail -5
+```
+
+### paste 1
+Use the paste command to combine the planet names, colors,
+masses and duration of year into a single file using the default
+delimiter and user specified delimiters. Delete rows from one of the
+files and see how this affects the output.
+
+```
+paste planet-name.txt planet-mass.txt planet-year.txt planet-color.txt
+paste -d ',' planet-name.txt planet-mass.txt planet-year.txt planet-color.txt
+paste -d ' ', planet-name.txt planet-mass.txt planet-year.txt planet-color.txt
+```
+
+### nl 1
+Add line numbers to the planet-name.txt file. Experiment with options to left justify numbering, right justify numbering with zero padding, adjust the width of the numbers (useful in combination with zero padding), change the increment and change the starting number. Consult the nl man page as needed.
+
+```
+nl planet-name.txt
+nl -n ln planet-name.txt
+nl -n rz planet-name.txt
+nl -n rz -w 3 planet-name.txt
+nl -i 10 planet-name.txt
+nl -v 5 planet-name.txt
+```
+
+### split 1
+Split the file split-ex.txt into three parts using (i) default file naming parameters, (ii) a user defined prefix (e.g. part_), (iii) user defined suffix and numeric suffic instead of alphabetic suffix. Repeat specifying that each output file should contain 10 lines.
+
+```
+split -n 3 split-ex.txt
+split -n 3 split-ex.txt part_
+split -n 3 -d split-ex.txt part_
+split -l 10 split-ex.txt
+split -l 10 split-ex.txt part_
+split -l 10 -d split-ex.txt part_
 ```
 
 ### awk 1

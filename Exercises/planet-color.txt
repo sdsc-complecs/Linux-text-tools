@@ -1,0 +1,8 @@
+gray
+golden-brown
+blue
+red
+yellow
+yellow
+green-blue
+pale-blue
