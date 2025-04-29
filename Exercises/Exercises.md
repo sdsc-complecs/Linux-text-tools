@@ -43,6 +43,9 @@ by name, (ii) color, (iii) origin, (iv) price, (v) origin and then
 price, (vi) color, price and name. Keep in mind that price is a
 numerical value.
 
+### shuf 1
+Generate a random ordering of the lines in file.txt
+
 ### split 1
 Split the file split-ex.txt into three parts using (i)
 default file naming parameters, (ii) a user defined prefix

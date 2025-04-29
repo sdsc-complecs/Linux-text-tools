@@ -40,7 +40,7 @@ nl -i 10 planet-name.txt
 nl -v 5 planet-name.txt
 ```
 
-### split 1
+### sort 1
 Split the file split-ex.txt into three parts using (i)
 default file naming parameters, (ii) a user defined prefix
 (e.g. part_), (iii) user defined suffix and numeric suffic instead of
@@ -54,6 +54,13 @@ sort -k 3 produce.txt
 sort -k 4 -n produce.txt
 sort -k3,3 -k4n produce.txt
 sort -k2,2 -k4n -k1,1 produce.txt
+```
+
+### shuf 1
+Generate a random ordering of the lines in file.txt
+
+```
+shuf file.txt
 ```
 
 ### split 1
