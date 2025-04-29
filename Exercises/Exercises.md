@@ -72,6 +72,16 @@ grep '2' -A1 -B1 file-short.txt
 grep '5' -B1 -A1 file-long.txt
 ```
 
+### sed 1
+Apply sed to the file produce.txt to (i) replace all occurrences of
+apple with grape and (ii) replace all occurrences of apple with grape
+only if country of origin is Canada.
+
+## sed 2
+Apply sed to file-long.txt to (i) replace Line with Record and (ii)
+replace Line with Record only if the number following line starts with
+the digit '4'.
+
 ### awk 1
 Write an awk one-liner to print out the first and last fields from
 each record of a file. Assume that the records can contain different
