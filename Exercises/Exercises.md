@@ -17,11 +17,11 @@ work. If you have a data processing task where these tools might help,
 try developing a solution now.
 
 ### head/tail 1
-Display the first three/last three lines of file.txt using the
+Display the first three/last three lines of file-short.txt using the
 head/tail commands.
 
 ### head/tail 2
-Using a combination of head and tail, display lines 5-10 of file.txt
+Using a combination of head and tail, display lines 5-10 of file-short.txt
 
 ### paste 1
 Use the paste command to combine the planet names, colors,
@@ -44,14 +44,21 @@ price, (vi) color, price and name. Keep in mind that price is a
 numerical value.
 
 ### shuf 1
-Generate a random ordering of the lines in file.txt
+Generate a random ordering of the lines in file-short.txt
 
 ### split 1
-Split the file split-ex.txt into three parts using (i)
+Split the file file-long.txt into three parts using (i)
 default file naming parameters, (ii) a user defined prefix
 (e.g. part_), (iii) user defined suffix and numeric suffic instead of
 alphabetic suffix. Repeat specifying a line length instead of number
 of output files.
+
+### grep 1
+List all planets from planet-name.txt that (i) contain the letter 'n',
+(ii) do not contain the letter 'n', (iii) end with the letter 's', and
+(iv) start with a vowel. We haven't covered character classes yet -
+relevant to the last question - but you can use [AEIOU] in place of
+the single character.
 
 ### awk 1
 Write an awk one-liner to print out the first and last fields from
