@@ -49,7 +49,7 @@ Generate a random ordering of the lines in file-short.txt
 ### split 1
 Split the file file-long.txt into three parts using (i)
 default file naming parameters, (ii) a user defined prefix
-(e.g. part_), (iii) user defined suffix and numeric suffic instead of
+(e.g. part_), (iii) user defined suffix and numeric suffix instead of
 alphabetic suffix. Repeat specifying a line length instead of number
 of output files.
 
