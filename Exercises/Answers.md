@@ -60,7 +60,7 @@ shuf file-short.txt
 ```
 
 ### split 1
-Split the file file-long.txt into three parts using (i) default file naming parameters, (ii) a user defined prefix (e.g. part_), (iii) user defined suffix and numeric suffic instead of alphabetic suffix. Repeat specifying that each output file should contain 10 lines.
+Split the file file-long.txt into three parts using (i) default file naming parameters, (ii) a user defined prefix (e.g. part_), (iii) user defined suffix and numeric suffix instead of alphabetic suffix. Repeat specifying that each output file should contain 10 lines.
 
 ```
 split -n 3 file-long.txt
@@ -107,7 +107,7 @@ sed 's/apple/grape/' produce.txt
 sed '/Canada/ s/apple/grape/' produce.txt
 ```
 
-## sed 2
+### sed 2
 Apply sed to file-long.txt to (i) replace Line with Record and (ii)
 replace Line with Record only if the number following line starts with
 the digit '4'.
