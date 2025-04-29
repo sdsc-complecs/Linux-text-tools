@@ -60,6 +60,18 @@ List all planets from planet-name.txt that (i) contain the letter 'n',
 relevant to the last question - but you can use [AEIOU] in place of
 the single character.
 
+### grep 2
+List all lines from file-short.txt that contain the digit '2' along
+with the preceding and following line. Does the order of the options
+matter? What happens if there is no following line? Repeat searching
+for the digit '5' in file-long.txt. What are the implications of
+multiple consecutive lines containing a '5'?
+
+```
+grep '2' -A1 -B1 file-short.txt
+grep '5' -B1 -A1 file-long.txt
+```
+
 ### awk 1
 Write an awk one-liner to print out the first and last fields from
 each record of a file. Assume that the records can contain different
